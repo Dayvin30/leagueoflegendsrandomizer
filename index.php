@@ -32,7 +32,7 @@ $probuild= str_replace("&nbsp","",$probuild);
 
      <div class="champion" onselectstart="return false"  >
      <a href="https://probuildstats.com/champion/<?php echo $probuild; ?>" target="_blank">
-      <img style="border: 8px solid;  border-image: linear-gradient(65deg, #0874fc, #032e65) 1; min-width: 300px; max-width: 300px;"id="changeme" src="images/<?php echo $image; ?>" alt="" />
+      <img style="border: 8px solid;  border-image: linear-gradient(65deg, #6877e6, #e668dc) 1; min-width: 300px; max-width: 300px;"id="changeme" src="images/<?php echo $image; ?>" alt="" />
     </a>  
     
     </div> 
