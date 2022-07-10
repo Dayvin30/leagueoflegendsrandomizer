@@ -75,7 +75,7 @@ width: max-content;
 
         grid-column-start: 3;
         grid-row-start: 5;
-        align-self: center;
+        align-self: start;
         justify-self: center;
         cursor: pointer;
         user-select: none;
