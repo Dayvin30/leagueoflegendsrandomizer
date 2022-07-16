@@ -199,6 +199,13 @@ width: max-content;
 
 }
 
+.accueil{
+
+  grid-column-start: 1;
+    grid-row-start: 1;
+
+}
+
 
 
       .modal-window {

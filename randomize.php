@@ -37,6 +37,12 @@ $probuild= str_replace("&nbsp","",$probuild);
     
     </div> 
 
+    <div class="accueil" onclick="document.location.href='index.php'" > <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  Tirer au sort !</div>
+
 
 
      <div class="name"><?php echo $name ?></div>
@@ -76,7 +82,7 @@ $probuild= str_replace("&nbsp","",$probuild);
 <?php function randomChampion(){
 $dir = "images/";
 $images = scandir($dir);
-$i = rand(2,161);
+$i = rand(2,162);
 return($images[$i]);
 }
 
