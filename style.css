@@ -43,7 +43,7 @@
     body { 
     height: 100%;
     background-image: url("assets/blue.jpg");
-    /* background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%); */
+    background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,7 +79,7 @@ width: max-content;
         justify-self: center;
         cursor: pointer;
         user-select: none;
-        position: relative;
+        position: static;
   display: inline-block;
   padding: 30px 60px;
   border-radius: 4px;
